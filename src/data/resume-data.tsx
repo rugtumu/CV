@@ -22,7 +22,7 @@ import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 export const RESUME_DATA = {
   name: "Umut Gür",
   initials: "BJ",
-  location: "Sarıyer, İstanbul",
+  location: "Istanbul, Turkey",
   locationLink: "https://www.google.com/maps/place/Istanbul/",
   about:
     "Data Analyst | Associate Data Engineer",
@@ -52,44 +52,51 @@ export const RESUME_DATA = {
       degree: "Bachelor's Degree in Mathematics",
       start: "2018",
       end: "2024",
+      gpa: "GPA: 3.11"
     },
   ],
   work: [
     {
-      company: "Film.io",
-      link: "https://film.io",
-      badges: ["Remote"],
-      title: "Software Architect",
-      logo: ConsultlyLogo,
-      start: "2024",
-      end: null,
+      company: "Boğaziçi AI",
+      link: "https://bogaziciai.com/",
+      badges: [],
+      title: "Junior Data Analyst",
+      start: "September",
+      end: "November 2023",
       description:
-        "Leading the development of the Film.io platform. Technologies: React, TypeScript, Node.js",
+        "During a 10-week period, we had weekly assignments. We worked on various projects related to the topics we covered which are data analysis and data science. In this process, I not only experienced teamwork similar to that in a business environment but also significantly improved my data analysis skills.",
     },
     {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: ["Remote"],
-      title: "Senior Full Stack Developer",
-      logo: ParabolLogo,
-      start: "2021",
+      company: "Türkiye Buz Hokeyi Federasyonu",
+      link: "https://tbhf.org.tr/",
+      badges: [],
+      title: "Instructor of Ice Skating",
+      start: "March",
       end: "2024",
       description:
-        "Implemented new features, led a squad, improved code delivery process, and initiated migration from Emotion to Tailwind CSS. Technologies: React, TypeScript, GraphQL",
+        "Fill here",
     },
     {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
-      logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
+      company: "Mentor Özel Ders",
+      link: "https://mentorozelders.com/",
+      badges: ["Freelance"],
+      title: "Instructor",
+      start: "2022",
+      end: null,
       description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, and AAA. Built a live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
-    },
+        "Fill here",
+    },    
   ],
   skills: [
+    "SQL",
+    "Python",    
+    "Tableau",
+    "Data Analysis",
+    "Bash",
+    "C++",
+    "LaTex",
+  ],
+  /*general_skills: [
     "SQL",
     "Python",
     "Data Analysis",
@@ -97,57 +104,121 @@ export const RESUME_DATA = {
     "GraphQL",
     "Relay",
     "WebRTC",
-  ],
+  ],*/
   projects: [
     {
-      title: "Parabol",
+      title: "Data Scientist Associate",
       techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
+        "a",
+        "a",
+        "a",
       ],
       description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
+        "Ongoing...",      
+      link: {
+        label: "",
+        href: "",
+      },
+    },
+    {
+      title: "Data Engineer Associate",
+      techStack: [
+        "a",
+        "a",
+        "a",
+      ],
+      description:
+        "Ongoing...",      
+      link: {
+        label: "",
+        href: "",
+      },
+    },
+    {
+      title: "Data Analyst",
+      techStack: [
+        "Python",
+        "Snowflake",
+        "SQL",
+      ],
+      description:
+        "Throughout this program, I developed a solid foundation in analytic fundamentals, exploratory analysis, data management, and visualization/reporting.",      
+      link: {
+        label: "datacamp.com",
+        href: "https://www.datacamp.com/certificate/DA0025829515704",
+      },
+    },
+    {
+      title: "SQL Associate",
+      techStack: [
+        "PostgreSQL",
+        "Database Design"
+      ],
+      description:
+        "Fill here",      
+      link: {
+        label: "datacamp.com",
+        href: "https://www.datacamp.com/certificate/SQA0012414864755",
+      },
+    },
+    {
+      title: "Data Analyst Associate",
+      techStack: [
+        "SQL",
+        "Data Management",
+        "Data Visualization"
+      ],
+      description:
+        "Fill here",
       logo: ParabolLogo,
       link: {
-        label: "github.com",
-        href: "https://parabol.co/",
+        label: "datacamp.com",
+        href: "https://www.datacamp.com/certificate/DAA0014878098258",
       },
     },
     {
-      title: "Evercast",
-      techStack: [
-        "Lead Frontend Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
+      title: "Google Cybersecurity",
+      techStack: [        
+        "Intrusion Detection Systems",
+        "Network Security",        
+        "Network Architecture",
+        "Authentication Systems",        
+        "SIEM Tools",
+        "Linux",
       ],
       description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
+        "This certificate consists of hands-on, practice based assessments and are designed to prepare me for entry-level roles in cybersecurity.",
       link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
+        label: "coursera.org",
+        href: "https://coursera.org/share/1198d12171bf94766669c19c02463390",
       },
     },
     {
-      title: "Consultly",
+      title: "bogaziciblitz.com",
       techStack: [
         "Side Project",
         "TypeScript",
         "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
+        "Tailwind CSS"
       ],
-      description: "A platform to build and grow your online business",
-      logo: ConsultlyLogo,
+      description: "Website for the ice hockey team of Boğaziçi University, Boğaziçi Blitz.",
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        label: "bogaziciblitz.com",
+        href: "https://bogaziciblitz.com/",
+      },
+    },
+    {
+      title: "This CV",
+      techStack: [
+        "TypeScript",
+        "Next.js",
+        "Tailwind CSS",
+        "React"
+      ],
+      description: "This CV is a fork of Bartosz Jarocki's github repository.",
+      link: {
+        label: "github.com",
+        href: "https://github.com/BartoszJarocki/cv",
       },
     },
   ],
