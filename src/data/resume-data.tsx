@@ -89,9 +89,8 @@ export const RESUME_DATA = {
   ],
   skills: [
     "SQL",
-    "Python",    
+    "Python",   
     "Tableau",
-    "Data Analysis",
     "Bash",
     "C++",
     "LaTex",
@@ -121,11 +120,26 @@ export const RESUME_DATA = {
       },
     },
     {
+      title: "AI Fundamentals",
+      techStack: [
+        "ML",
+        "NLP",
+        "LLMs",
+      ],
+      description:
+        "Ongoing...",      
+      link: {
+        label: "",
+        href: "",
+      },
+    },
+    {
       title: "Data Engineer Associate",
       techStack: [
-        "a",
-        "a",
-        "a",
+        "Snowflake",
+        "Python",
+        "Database Design",
+        "Data Warehousing",
       ],
       description:
         "Ongoing...",      
@@ -138,11 +152,13 @@ export const RESUME_DATA = {
       title: "Data Analyst",
       techStack: [
         "Python",
-        "Snowflake",
-        "SQL",
+        "SQL",        
+        "Exploratory Data Analysis",
+        "Data Visualization",
+        "Data Management"
       ],
       description:
-        "Throughout this program, I developed a solid foundation in analytic fundamentals, exploratory analysis, data management, and visualization/reporting.",      
+        "Throughout this program, I've developed a solid foundation in analytic fundamentals, exploratory analysis, data management, and visualization/reporting.",      
       link: {
         label: "datacamp.com",
         href: "https://www.datacamp.com/certificate/DA0025829515704",
@@ -152,7 +168,7 @@ export const RESUME_DATA = {
       title: "SQL Associate",
       techStack: [
         "PostgreSQL",
-        "Database Design"
+        "Database Design",
       ],
       description:
         "Fill here",      
@@ -185,6 +201,7 @@ export const RESUME_DATA = {
         "Authentication Systems",        
         "SIEM Tools",
         "Linux",
+        "Bash",
       ],
       description:
         "This certificate consists of hands-on, practice based assessments and are designed to prepare me for entry-level roles in cybersecurity.",
