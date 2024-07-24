@@ -60,7 +60,7 @@ export const RESUME_DATA = {
       company: "Boğaziçi AI",
       link: "https://bogaziciai.com/",
       badges: [],
-      title: "Junior Data Analyst",
+      title: "Data Analyst Intern",
       start: "September",
       end: "November 2023",
       description:
@@ -144,8 +144,8 @@ export const RESUME_DATA = {
       description:
         "Ongoing...",      
       link: {
-        label: "",
-        href: "",
+        label: "datacamp.com",
+        href: "https://www.datacamp.com/certificate/DEA0014044089169",
       },
     },
     {
