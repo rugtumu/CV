@@ -142,7 +142,7 @@ export const RESUME_DATA = {
         "Data Warehousing",
       ],
       description:
-        "Ongoing...",      
+        "Fill here",
       link: {
         label: "datacamp.com",
         href: "https://www.datacamp.com/certificate/DEA0014044089169",
