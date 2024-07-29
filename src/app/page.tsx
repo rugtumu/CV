@@ -17,14 +17,14 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <main className="container relative mx-auto scroll-my-12 overflow-auto p-4 md:p-16">
-      <section className="mx-auto w-full max-w-2xl space-y-8 bg-white">
+      <section className="mx-auto w-full max-w-full space-y-8 bg-white">
         <div className="flex items-center justify-between">
           <div className="flex-1 space-y-1.5">
             <h1 className="text-2xl font-bold">{RESUME_DATA.name}</h1>
-            <p className="max-w-md text-pretty font-mono text-sm text-muted-foreground">
+            <p className="max-w-full text-pretty font-mono text-sm text-muted-foreground">
               {RESUME_DATA.about}
             </p>
-            <p className="max-w-md items-center text-pretty font-mono text-xs text-muted-foreground">
+            <p className="max-w-full items-center text-pretty font-mono text-xs text-muted-foreground">
               <a
                 className="inline-flex gap-x-1.5 align-baseline leading-none hover:underline"
                 href={RESUME_DATA.locationLink}
@@ -146,17 +146,17 @@ export default function Page() {
                 <CardHeader>
                   <div className="flex items-center justify-between gap-x-2 text-base">
                     <div className="font-semibold leading-none">
-                      {education.school}                      
+                      {education.school}
                     </div>     
                                    
                     <div className="text-sm tabular-nums text-gray-500">
-                      {education.start} - {education.end}                       
+                      {education.start} - {education.end}
                     </div>
                   </div>
 
                   <div className="flex items-center justify-between gap-x-2 text-base">
                     <CardContent className="mt-18">
-                        {education.degree}                      
+                        {education.degree}
                     </CardContent>
 
                     <div className="text-right">
@@ -164,15 +164,14 @@ export default function Page() {
                           {education.gpa}
                           </div>
                         </div>
-                  </div>
-                  
-                </CardHeader>                
+                  </div>                
+                </CardHeader>
               </Card>
             );
           })}
         </Section>
         <Section>
-          <h2 className="text-xl font-bold">Computer Skills</h2>
+          <h2 className="text-xl font-bold">Skills</h2>
           <div className="flex flex-wrap gap-1">
             {RESUME_DATA.skills.map((skills) => {
               return (
@@ -182,11 +181,11 @@ export default function Page() {
               );
             })}
           </div>
-        </Section>       
+        </Section>
 
-        <Section className="print-force-new-page scroll-mb-16">
+        <Section className="scroll-mb-16">
           <h2 className="text-xl font-bold">Projects & Certificates</h2>
-          <div className="-mx-3 grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-2 print:grid-cols-2">
+          <div className="-mx-3 grid grid-cols-1 gap-3 md:grid-cols-3 lg:grid-cols-3">
             {RESUME_DATA.projects.map((project) => {
               return (
                 <ProjectCard

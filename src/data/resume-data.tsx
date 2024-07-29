@@ -27,7 +27,7 @@ export const RESUME_DATA = {
   about:
     "Data Analyst | Associate Data Engineer",
   summary:
-    "I am a highly motivated recent graduate eager to apply my skills into the workplace. Throughout my undergraduate years, I have developed a particular interest in data science and data engineering. In my final year, I studied with the Boğaziçi AI community, where we worked on weekly assignments and projects focused on exploring and manipulating data.",
+    "I am a highly motivated recent graduate and I am eager to apply my skills into the workplace. Throughout my undergraduate years, I have developed a particular interest in data science and data engineering. In my senior year, I studied with the Boğaziçi AI community, where we worked on weekly projects which focused on data analysis and the fundamentals of machine learning. For the past 4-5 months, I have been developing my data science and data engineering skills to the highest level. I have been focusing on projects and, with my strong theoretical knowledge, I am ready to work in a professional environment.",
   avatarUrl: "https://avatars.githubusercontent.com/u/150899294?s=400&u=54d40f937758ae3e54838c602f180e80ffbf0e63&v=4",
   personalWebsiteUrl: "",
   contact: {
@@ -74,7 +74,7 @@ export const RESUME_DATA = {
       start: "March",
       end: "2024",
       description:
-        "Fill here",
+        "For a month, I gave basic skating training at the Beykoz Ice Rink and introduced people to the ice hockey branch.",
     },
     {
       company: "Mentor Özel Ders",
@@ -84,12 +84,16 @@ export const RESUME_DATA = {
       start: "2022",
       end: null,
       description:
-        "Fill here",
+        "I have been teaching high school Math and Physics, as well as English, Calculus, and Physics 101 for about two years.",
     },    
   ],
   skills: [
     "SQL",
-    "Python",   
+    "Python",
+    "Pandas",
+    "Seaborn",
+    "Matplotlib",
+    "ETL/ELT",
     "Tableau",
     "Bash",
     "C++",
@@ -106,11 +110,11 @@ export const RESUME_DATA = {
   ],*/
   projects: [
     {
-      title: "Data Scientist Associate",
+      title: "Data Engineer",
       techStack: [
-        "a",
-        "a",
-        "a",
+        "ETL/ELT",
+        "Apache Airflow",
+        "Data Pipelines",
       ],
       description:
         "Ongoing...",      
@@ -124,13 +128,15 @@ export const RESUME_DATA = {
       techStack: [
         "ML",
         "NLP",
-        "LLMs",
+        "LLM",
+        "Generative AI",
+        "ChatGPT",
       ],
       description:
-        "Ongoing...",      
+        "Certified in AI Fundamentals, I have demonstrated proficiency in identifying use cases for AI sub-domains, understanding generative AI, constructing prompts for generative AI tools, and explaining the ethical considerations of AI and generative AI solutions.",      
       link: {
-        label: "",
-        href: "",
+        label: "datacamp.com",
+        href: "https://www.datacamp.com/skill-verification/AIF0020785439675",
       },
     },
     {
@@ -142,7 +148,7 @@ export const RESUME_DATA = {
         "Data Warehousing",
       ],
       description:
-        "Fill here",
+        "Certified as an Associate Data Engineer, I have demonstrated proficiency in data management and exploratory analysis. This certification validates my ability to clean and prepare data using SQL for further analysis, and to understand common methods of working with data to effectively collaborate with data analysts and scientists.",
       link: {
         label: "datacamp.com",
         href: "https://www.datacamp.com/certificate/DEA0014044089169",
@@ -158,7 +164,7 @@ export const RESUME_DATA = {
         "Data Management"
       ],
       description:
-        "Throughout this program, I've developed a solid foundation in analytic fundamentals, exploratory analysis, data management, and visualization/reporting.",      
+      "Certified as a Data Analyst, I have demonstrated expertise in analytic fundamentals, exploratory analysis, data management, and visualization/reporting. This certification validates my ability to perform A/B tests, clean and process data using SQL, analyze data using Python, and effectively communicate insights through dashboards and presentations.",      
       link: {
         label: "datacamp.com",
         href: "https://www.datacamp.com/certificate/DA0025829515704",
@@ -169,9 +175,11 @@ export const RESUME_DATA = {
       techStack: [
         "PostgreSQL",
         "Database Design",
+        "Data Management",
+        "Exploratory Analysis",
       ],
       description:
-        "Fill here",      
+      "This certification validates my ability to clean and process data, identify data quality issues, and perform transformations using SQL, as well as calculate metrics and report on data characteristics and feature relationships using PostgreSQL.",      
       link: {
         label: "datacamp.com",
         href: "https://www.datacamp.com/certificate/SQA0012414864755",
@@ -185,7 +193,7 @@ export const RESUME_DATA = {
         "Data Visualization"
       ],
       description:
-        "Fill here",
+      "This certification validates my ability to clean and process data using SQL, perform hands-on SQL coding challenges, use Python for analysis, and create effective dashboards, reports, and presentations to communicate insights.",
       logo: ParabolLogo,
       link: {
         label: "datacamp.com",
@@ -204,7 +212,7 @@ export const RESUME_DATA = {
         "Bash",
       ],
       description:
-        "This certificate consists of hands-on, practice based assessments and are designed to prepare me for entry-level roles in cybersecurity.",
+        "This certificate consists of hands-on, practice based assessments and are designed to prepare candidates for entry-level roles in cybersecurity.",
       link: {
         label: "coursera.org",
         href: "https://coursera.org/share/1198d12171bf94766669c19c02463390",
@@ -218,7 +226,7 @@ export const RESUME_DATA = {
         "Next.js",
         "Tailwind CSS"
       ],
-      description: "Website for the ice hockey team of Boğaziçi University, Boğaziçi Blitz.",
+      description: "I built a website from a Tailwind draft for the ice hockey team of Boğaziçi University, Boğaziçi Blitz.",
       link: {
         label: "bogaziciblitz.com",
         href: "https://bogaziciblitz.com/",
