@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 
 export default function Page() {
   return (
-    <main className="container relative mx-auto scroll-my-12 overflow-auto p-4 md:p-16">
+    <main className="container relative mx-auto scroll-my-12 overflow-auto p-8 md:p-16">
       <section className="mx-auto w-full max-w-full space-y-8 bg-white">
         <div className="flex items-center justify-between">
           <div className="flex-1 space-y-1.5">
@@ -42,7 +42,7 @@ export default function Page() {
                   size="icon"
                   asChild
                 >
-                  <a href={`mailto:${RESUME_DATA.contact.email}`}>
+                  <a href={`mailto:${RESUME_DATA.contact.email}`} className="flex items-center gap-1 underline">
                     <MailIcon className="size-4" />
                   </a>
                 </Button>
@@ -54,7 +54,7 @@ export default function Page() {
                   size="icon"
                   asChild
                 >
-                  <a href={`tel:${RESUME_DATA.contact.tel}`}>
+                  <a href={`tel:${RESUME_DATA.contact.tel}`} className="flex items-center gap-1 underline">
                     <PhoneIcon className="size-4" />
                   </a>
                 </Button>
@@ -87,7 +87,7 @@ export default function Page() {
             </div>
           </div>
 
-          <Avatar className="size-28">
+          <Avatar className="size-28 mt-4 md:mt-0 md:ml-4">
             <AvatarImage alt={RESUME_DATA.name} src={RESUME_DATA.avatarUrl} />
             <AvatarFallback>{RESUME_DATA.initials}</AvatarFallback>
           </Avatar>

@@ -110,6 +110,20 @@ export const RESUME_DATA = {
   ],*/
   projects: [
     {
+      title: "Data Scientist Associate",
+      techStack: [
+        "a",
+        "a",
+        "a",
+      ],
+      description:
+        "Ongoing...",      
+      link: {
+        label: "",
+        href: "",
+      },
+    },
+    {
       title: "Data Engineer",
       techStack: [
         "ETL/ELT",
@@ -230,20 +244,6 @@ export const RESUME_DATA = {
       link: {
         label: "bogaziciblitz.com",
         href: "https://bogaziciblitz.com/",
-      },
-    },
-    {
-      title: "This CV",
-      techStack: [
-        "TypeScript",
-        "Next.js",
-        "Tailwind CSS",
-        "React"
-      ],
-      description: "This CV is a fork of Bartosz Jarocki's github repository.",
-      link: {
-        label: "github.com",
-        href: "https://github.com/BartoszJarocki/cv",
       },
     },
   ],
