@@ -21,11 +21,11 @@ import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
   name: "Umut Gür",
-  initials: "BJ",
+  initials: "UG",
   location: "Istanbul, Turkey",
   locationLink: "https://www.google.com/maps/place/Istanbul/",
   about:
-    "Data Analyst | Associate Data Engineer",
+    "Data Analyst | Associate Data Scientist",
   summary:
     "I am a highly motivated recent graduate and I am eager to apply my skills into the workplace. Throughout my undergraduate years, I have developed a particular interest in data science and data engineering. In my senior year, I studied with the Boğaziçi AI community, where we worked on weekly projects which focused on data analysis and the fundamentals of machine learning. For the past 4-5 months, I have been developing my data science and data engineering skills to the highest level. I have been focusing on projects and, with my strong theoretical knowledge, I am ready to work in a professional environment.",
   avatarUrl: "https://avatars.githubusercontent.com/u/150899294?s=400&u=54d40f937758ae3e54838c602f180e80ffbf0e63&v=4",
@@ -38,11 +38,13 @@ export const RESUME_DATA = {
         name: "GitHub",
         url: "https://github.com/rugtumu",
         icon: GitHubIcon,
+        text: "/rugtumu"
       },
       {
         name: "LinkedIn",
         url: "https://www.linkedin.com/in/umut-gur/",
         icon: LinkedInIcon,
+        text: "/umut-gur"
       },
     ],
   },
@@ -90,6 +92,7 @@ export const RESUME_DATA = {
   skills: [
     "SQL",
     "Python",
+    "scikit-learn",
     "Pandas",
     "Seaborn",
     "Matplotlib",
@@ -122,21 +125,7 @@ export const RESUME_DATA = {
         label: "",
         href: "",
       },
-    },
-    {
-      title: "Data Engineer",
-      techStack: [
-        "ETL/ELT",
-        "Apache Airflow",
-        "Data Pipelines",
-      ],
-      description:
-        "Ongoing...",      
-      link: {
-        label: "",
-        href: "",
-      },
-    },
+    },    
     {
       title: "AI Fundamentals",
       techStack: [
@@ -199,7 +188,7 @@ export const RESUME_DATA = {
         href: "https://www.datacamp.com/certificate/SQA0012414864755",
       },
     },
-    {
+    /*{
       title: "Data Analyst Associate",
       techStack: [
         "SQL",
@@ -213,7 +202,7 @@ export const RESUME_DATA = {
         label: "datacamp.com",
         href: "https://www.datacamp.com/certificate/DAA0014878098258",
       },
-    },
+    },*/
     {
       title: "Google Cybersecurity",
       techStack: [        

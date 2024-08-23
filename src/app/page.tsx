@@ -37,38 +37,41 @@ export default function Page() {
             <div className="flex gap-x-1 pt-1 font-mono text-sm text-muted-foreground">
               {RESUME_DATA.contact.email ? (
                 <Button
-                  className="size-8"
+                  className="size-35"
                   variant="outline"
                   size="icon"
                   asChild
                 >
                   <a href={`mailto:${RESUME_DATA.contact.email}`} className="flex items-center gap-1 underline">
                     <MailIcon className="size-4" />
+                    {RESUME_DATA.contact.email}
                   </a>
                 </Button>
               ) : null}
               {RESUME_DATA.contact.tel ? (
                 <Button
-                  className="size-8"
+                  className="size-30"
                   variant="outline"
                   size="icon"
                   asChild
                 >
                   <a href={`tel:${RESUME_DATA.contact.tel}`} className="flex items-center gap-1 underline">
                     <PhoneIcon className="size-4" />
+                    {RESUME_DATA.contact.tel}
                   </a>
                 </Button>
               ) : null}
               {RESUME_DATA.contact.social.map((social) => (
                 <Button
                   key={social.name}
-                  className="size-8"
+                  className="size-30"
                   variant="outline"
                   size="icon"
                   asChild
                 >
-                  <a href={social.url}>
+                  <a href={social.url} className="flex items-center gap-1 underline">
                     <social.icon className="size-4" />
+                    {social.text}
                   </a>
                 </Button>
               ))}
