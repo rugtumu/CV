@@ -27,7 +27,7 @@ export const RESUME_DATA = {
   about:
     "Data Analyst | Associate Data Scientist",
   summary:
-    "I am a highly motivated recent graduate and I am eager to apply my skills into the workplace. Throughout my undergraduate years, I have developed a particular interest in data science and data engineering. In my senior year, I studied with the Boğaziçi AI community, where we worked on weekly projects which focused on data analysis and the fundamentals of machine learning. For the past 4-5 months, I have been developing my data science and data engineering skills to the highest level. I have been focusing on projects and, with my strong theoretical knowledge, I am ready to work in a professional environment.",
+    "As a Data Analyst, I specialize in both analyzing large datasets for insights and developing predictive models to solve complex data problems. My expertise includes data cleaning, data visualization, and data management, along with machine learning and statistical modeling. I utilize tools such as Python, SQL, and Tableau to transform raw data into actionable insights and predictive solutions. Additionally, I work with big data processing tools and cloud platforms to optimize data-driven decision-making processes.",
   avatarUrl: "https://avatars.githubusercontent.com/u/150899294?s=400&u=54d40f937758ae3e54838c602f180e80ffbf0e63&v=4",
   personalWebsiteUrl: "",
   contact: {
@@ -62,7 +62,7 @@ export const RESUME_DATA = {
       company: "Boğaziçi AI",
       link: "https://bogaziciai.com/",
       badges: [],
-      title: "Data Analyst Intern",
+      title: "Data Bootcamp",
       start: "September",
       end: "November 2023",
       description:
@@ -112,7 +112,7 @@ export const RESUME_DATA = {
     "WebRTC",
   ],*/
   projects: [
-    {
+    /*{
       title: "Data Scientist Associate",
       techStack: [
         "a",
@@ -125,7 +125,7 @@ export const RESUME_DATA = {
         label: "",
         href: "",
       },
-    },    
+    },*/  
     {
       title: "AI Fundamentals",
       techStack: [
