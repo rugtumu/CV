@@ -112,20 +112,20 @@ export const RESUME_DATA = {
     "WebRTC",
   ],*/
   projects: [
-    /*{
+    {
       title: "Data Scientist Associate",
       techStack: [
-        "a",
-        "a",
+        "scikit-learn",
+        "",
         "a",
       ],
       description:
-        "Ongoing...",      
+        "",      
       link: {
-        label: "",
-        href: "",
+        label: "datacamp.com",
+        href: "https://www.datacamp.com/certificate/DSA0012506867305",
       },
-    },*/  
+    }, 
     {
       title: "AI Fundamentals",
       techStack: [
