@@ -115,9 +115,10 @@ export const RESUME_DATA = {
     {
       title: "Data Scientist Associate",
       techStack: [
+        "Pyton",
+        "Machine Learning",
         "scikit-learn",
-        "",
-        "a",
+        "Supervised Learning"
       ],
       description:
         "",      
