@@ -121,7 +121,7 @@ export const RESUME_DATA = {
         "Supervised Learning"
       ],
       description:
-        "",      
+        "As a certified Associate Data Scientist, I have demonstrated proficiency in data management, exploratory analysis, statistical experimentation, modeling, and data science programming. I also gained skills in communicating actionable insights through reports and dashboards, preparing me for entry-level data science roles.",      
       link: {
         label: "datacamp.com",
         href: "https://www.datacamp.com/certificate/DSA0012506867305",
