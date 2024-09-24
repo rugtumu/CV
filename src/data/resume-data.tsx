@@ -221,6 +221,20 @@ export const RESUME_DATA = {
         label: "coursera.org",
         href: "https://coursera.org/share/1198d12171bf94766669c19c02463390",
       },
+    },    
+    {
+      title: "umutgur.com",
+      techStack: [
+        "Side Project",
+        "TypeScript",
+        "Next.js",
+        "React"
+      ],
+      description: "I built a website from a public template which belongs to Bartosz Jarocki.",
+      link: {
+        label: "umutgur.com",
+        href: "https://umutgur.com/",
+      },
     },
     {
       title: "bogaziciblitz.com",
