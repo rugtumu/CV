@@ -25,7 +25,7 @@ export const RESUME_DATA = {
   location: "Istanbul, Turkey",
   locationLink: "https://www.google.com/maps/place/Istanbul/",
   about:
-    "Data Analyst | Associate Data Scientist",
+    "Data Analyst | Data Scientist",
   summary:
     "As a Data Analyst, I specialize in both analyzing large datasets for insights and developing predictive models to solve complex data problems. My expertise includes data cleaning, data visualization, and data management, along with machine learning and statistical modeling. I utilize tools such as Python, SQL, and Tableau to transform raw data into actionable insights and predictive solutions. Additionally, I work with big data processing tools and cloud platforms to optimize data-driven decision-making processes.",
   avatarUrl: "https://avatars.githubusercontent.com/u/150899294?s=400&u=54d40f937758ae3e54838c602f180e80ffbf0e63&v=4",
@@ -101,6 +101,7 @@ export const RESUME_DATA = {
     "Bash",
     "C++",
     "LaTex",
+    "Algorithmic Trading",
   ],
   /*general_skills: [
     "SQL",
@@ -112,52 +113,6 @@ export const RESUME_DATA = {
     "WebRTC",
   ],*/
   projects: [
-    {
-      title: "Data Scientist Associate",
-      techStack: [
-        "Pyton",
-        "Machine Learning",
-        "scikit-learn",
-        "Supervised Learning"
-      ],
-      description:
-        "As a certified Associate Data Scientist, I have demonstrated proficiency in data management, exploratory analysis, statistical experimentation, modeling, and data science programming. I also gained skills in communicating actionable insights through reports and dashboards, preparing me for entry-level data science roles.",      
-      link: {
-        label: "datacamp.com",
-        href: "https://www.datacamp.com/certificate/DSA0012506867305",
-      },
-    }, 
-    {
-      title: "AI Fundamentals",
-      techStack: [
-        "ML",
-        "NLP",
-        "LLM",
-        "Generative AI",
-        "ChatGPT",
-      ],
-      description:
-        "Certified in AI Fundamentals, I have demonstrated proficiency in identifying use cases for AI sub-domains, understanding generative AI, constructing prompts for generative AI tools, and explaining the ethical considerations of AI and generative AI solutions.",      
-      link: {
-        label: "datacamp.com",
-        href: "https://www.datacamp.com/skill-verification/AIF0020785439675",
-      },
-    },
-    {
-      title: "Data Engineer Associate",
-      techStack: [
-        "Snowflake",
-        "Python",
-        "Database Design",
-        "Data Warehousing",
-      ],
-      description:
-        "Certified as an Associate Data Engineer, I have demonstrated proficiency in data management and exploratory analysis. This certification validates my ability to clean and prepare data using SQL for further analysis, and to understand common methods of working with data to effectively collaborate with data analysts and scientists.",
-      link: {
-        label: "datacamp.com",
-        href: "https://www.datacamp.com/certificate/DEA0014044089169",
-      },
-    },
     {
       title: "Data Analyst",
       techStack: [
@@ -175,6 +130,36 @@ export const RESUME_DATA = {
       },
     },
     {
+      title: "Data Scientist Associate",
+      techStack: [
+        "Pyton",
+        "Machine Learning",
+        "scikit-learn",
+        "Supervised Learning"
+      ],
+      description:
+        "As a certified Associate Data Scientist, I have demonstrated proficiency in data management, exploratory analysis, statistical experimentation, modeling, and data science programming. I also gained skills in communicating actionable insights through reports and dashboards, preparing me for entry-level data science roles.",      
+      link: {
+        label: "datacamp.com",
+        href: "https://www.datacamp.com/certificate/DSA0012506867305",
+      },
+    },    
+    {
+      title: "Data Engineer Associate",
+      techStack: [
+        "Snowflake",
+        "Python",
+        "Database Design",
+        "Data Warehousing",
+      ],
+      description:
+        "Certified as an Associate Data Engineer, I have demonstrated proficiency in data management and exploratory analysis. This certification validates my ability to clean and prepare data using SQL for further analysis, and to understand common methods of working with data to effectively collaborate with data analysts and scientists.",
+      link: {
+        label: "datacamp.com",
+        href: "https://www.datacamp.com/certificate/DEA0014044089169",
+      },
+    },
+    {
       title: "SQL Associate",
       techStack: [
         "PostgreSQL",
@@ -187,6 +172,22 @@ export const RESUME_DATA = {
       link: {
         label: "datacamp.com",
         href: "https://www.datacamp.com/certificate/SQA0012414864755",
+      },
+    },
+    {
+      title: "AI Fundamentals",
+      techStack: [
+        "ML",
+        "NLP",
+        "LLM",
+        "Generative AI",
+        "ChatGPT",
+      ],
+      description:
+        "Certified in AI Fundamentals, I have demonstrated proficiency in identifying use cases for AI sub-domains, understanding generative AI, constructing prompts for generative AI tools, and explaining the ethical considerations of AI and generative AI solutions.",      
+      link: {
+        label: "datacamp.com",
+        href: "https://www.datacamp.com/skill-verification/AIF0020785439675",
       },
     },
     /*{
