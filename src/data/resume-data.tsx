@@ -120,7 +120,8 @@ export const RESUME_DATA = {
         "SQL",        
         "Exploratory Data Analysis",
         "Data Visualization",
-        "Data Management"
+        "Data Management",
+        "A/B Tests",
       ],
       description:
       "Certified as a Data Analyst, I have demonstrated expertise in analytic fundamentals, exploratory analysis, data management, and visualization/reporting. This certification validates my ability to perform A/B tests, clean and process data using SQL, analyze data using Python, and effectively communicate insights through dashboards and presentations.",      
@@ -132,7 +133,7 @@ export const RESUME_DATA = {
     {
       title: "Data Scientist Associate",
       techStack: [
-        "Pyton",
+        "Python",
         "Machine Learning",
         "scikit-learn",
         "Supervised Learning"
