@@ -223,7 +223,22 @@ export const RESUME_DATA = {
         label: "coursera.org",
         href: "https://coursera.org/share/1198d12171bf94766669c19c02463390",
       },
-    },    
+    },
+    {
+      title: "Algorithmic Trading",
+      techStack: [
+        "Side Project",
+        "Python",
+        "Algorithmic Trading",
+        "TradingView",
+        "Pine Script"
+      ],
+      description: "I develop algorithms that scan stock exchanges like NASDAQ, NYSE, or BIST using specific indicators.",
+      link: {
+        label: "github.com/rugtumu/trade",
+        href: "https://github.com/rugtumu/trade",
+      },
+    },
     {
       title: "umutgur.com",
       techStack: [
@@ -232,7 +247,7 @@ export const RESUME_DATA = {
         "Next.js",
         "React"
       ],
-      description: "I built a website from a public template which belongs to Bartosz Jarocki.",
+      description: "I built a website from a public template which belongs to Bartosz Jarocki. Also my current CV.",
       link: {
         label: "umutgur.com",
         href: "https://umutgur.com/",
