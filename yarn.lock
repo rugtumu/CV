@@ -1994,9 +1994,9 @@ __metadata:
   linkType: hard
 
 "caniuse-lite@npm:^1.0.30001579, caniuse-lite@npm:^1.0.30001646, caniuse-lite@npm:^1.0.30001663":
-  version: 1.0.30001666
-  resolution: "caniuse-lite@npm:1.0.30001666"
-  checksum: 2d49e9be676233c24717f12aad3d01b3e5f902b457fe1deefaa8d82e64786788a8f79381ae437c61b50e15c9aea8aeb59871b1d54cb4c28b9190d53d292e2339
+  version: 1.0.30001667
+  resolution: "caniuse-lite@npm:1.0.30001667"
+  checksum: 6bc8555a47603e1e76eaef9b185d6fdeeca7d9c20a283f7c32c971eb1b52ea3a80e6ec086920f088f06abe619240f1023a2d3a08b5b1f2f11df1475695e9f71c
   languageName: node
   linkType: hard
 
@@ -2463,9 +2463,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.5.28":
-  version: 1.5.31
-  resolution: "electron-to-chromium@npm:1.5.31"
-  checksum: e8aecd88c4c6d50a9d459b4b222865b855bab8f1b52e82913804e18b7884f2887bd76c61b3aa08c2ccbdcda098dd8486443f75bf770f0138f21dd9e63548fca7
+  version: 1.5.32
+  resolution: "electron-to-chromium@npm:1.5.32"
+  checksum: d0c0c418fae6f7714fb6cfeb8f6a74a9504cf41ed6a4119d5388d94442ee224238c331bacc5917f2c89e3ffebd1b9f870ea5c0951c473ca7e58debef0f3e9137
   languageName: node
   linkType: hard
 
@@ -6206,9 +6206,9 @@ __metadata:
   linkType: hard
 
 "tailwind-merge@npm:^2.2.0":
-  version: 2.5.2
-  resolution: "tailwind-merge@npm:2.5.2"
-  checksum: e43a9a468f7ba4ed5b4a399558d96d6270a3d8131dca111cccc803e71cc23885060d18d721f312a24fff0a75c567dbb30b2a87c18aba25eb4255df197d8170ab
+  version: 2.5.3
+  resolution: "tailwind-merge@npm:2.5.3"
+  checksum: 1d3fb3eae7b5d7c30aad1e7cf74cf5e6fcb1e0319cc91bb29e266837819b23cd226d667a15e8d3f26db81b4abc30332be5d831f2c819e1bebafdcd7b2a1d4e48
   languageName: node
   linkType: hard
 
