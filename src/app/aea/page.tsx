@@ -5,8 +5,8 @@ import { NOTES_DATA } from "@/data/notes-data";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Hayati Videolar Notları",
-  description: "Altın Elbiseli Adam'ın hayati videolar serisinden aldığım notlar.",
+  title: "Altın Elbiseli Adam Videolarından Notlar",
+  description: "Altın Elbiseli Adam'ın videolarından aldığım notlar.",
 };
 
 export default function NotesPage() {
