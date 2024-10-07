@@ -66,7 +66,7 @@ export const RESUME_DATA = {
       start: "September",
       end: "November 2023",
       description:
-        "During a 10-week period, we had weekly assignments. We worked on various projects related to the topics we covered which are data analysis and data science. In this process, I not only experienced teamwork similar to that in a business environment but also significantly improved my data analysis skills.",
+        "During a 10-week period, we worked on various projects covering topics such as data analysis and data science. In this process, I not only experienced teamwork similar to that in a business environment but also significantly improved my data analysis and data science skills.",
     },
     {
       company: "Türkiye Buz Hokeyi Federasyonu",
