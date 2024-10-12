@@ -233,7 +233,7 @@ export const RESUME_DATA = {
         "TradingView",
         "Pine Script"
       ],
-      description: "I develop algorithms that scan stock exchanges like NASDAQ, NYSE, or BIST using specific indicators.",
+      description: "I develop algorithms that scan cryptocurrency exchanges, as well as stock markets such as NASDAQ, NYSE, and BIST, using specific indicators. You can access my project's files on GitHub by clicking on the card.",
       link: {
         label: "github.com/rugtumu/trade",
         href: "https://github.com/rugtumu/trade",

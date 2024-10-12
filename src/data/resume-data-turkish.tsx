@@ -233,7 +233,7 @@ import {
           "TradingView",
           "Pine Script"
         ],
-        description: "NASDAQ, NYSE ve BIST gibi borsaları çeşitli indikatörlere göre tarayan Python kodları yazıyorum. Projemin Github'daki dosyalarına karta tıklayarak ulaşabilirsiniz.",
+        description: "Kripto para borsası başta olmak üzere NASDAQ, NYSE ve BIST gibi borsaları çeşitli indikatörlere göre tarayan Python kodları yazıyorum. Projemin Github'daki dosyalarına karta tıklayarak ulaşabilirsiniz.",
         link: {
           label: "github.com/rugtumu/trade",
           href: "https://github.com/rugtumu/trade",
