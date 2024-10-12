@@ -207,7 +207,7 @@ import {
         },
       },*/
       {
-        title: "Google Cybersecurity",
+        title: "Google Siber Güvenlik",
         techStack: [        
           "Saldırı Tespit Sistemleri",
           "Ağ Güvenliği",        
@@ -225,7 +225,7 @@ import {
         },
       },
       {
-        title: "Algorithmic Trading",
+        title: "Algoritmik Trading",
         techStack: [
           "Side Project",
           "Python",
