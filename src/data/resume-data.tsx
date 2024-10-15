@@ -28,7 +28,7 @@ export const RESUME_DATA = {
     "Data Analyst | Data Scientist | Mathematician",
   summary:
     "As a Data Analyst, I specialize in both analyzing large datasets for insights and developing predictive models to solve complex data problems. My expertise includes data cleaning, data visualization, and data management, along with machine learning and statistical modeling. I utilize tools such as Python, SQL, and Tableau to transform raw data into actionable insights and predictive solutions. Additionally, I work with big data processing tools and cloud platforms to optimize data-driven decision-making processes.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/150899294?s=400&u=54d40f937758ae3e54838c602f180e80ffbf0e63&v=4",
+  avatarURL: "https://avatars.githubusercontent.com/u/150899294?s=400&u=54d40f937758ae3e54838c602f180e80ffbf0e63&v=4",
   personalWebsiteUrl: "",
   contact: {
     email: "umutgur7@gmail.com",

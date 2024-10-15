@@ -90,7 +90,7 @@ export default function Page() {
             </div>
           </div>
 
-          <Avatar className="size-28 mt-4 md:mt-0 md:ml-4">
+          <Avatar className="h-40 w-40 mt-4 md:mt-0 md:ml-4">
             <AvatarImage alt={RESUME_DATA_TR.name} src={RESUME_DATA_TR.avatarUrl} />
             <AvatarFallback>{RESUME_DATA_TR.initials}</AvatarFallback>
           </Avatar>
