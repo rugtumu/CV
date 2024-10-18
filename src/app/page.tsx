@@ -11,7 +11,7 @@ import { ProjectCard } from "@/components/project-card";
 import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export const metadata: Metadata = {
-  title: `${RESUME_DATA.name} | ${RESUME_DATA.about}`,
+  title: `${RESUME_DATA.name}`,
   description: RESUME_DATA.summary,
 };
 

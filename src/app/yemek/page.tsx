@@ -3,6 +3,7 @@
 import Head from "next/head";
 import { MEAL_DATA } from "@/data/meal-data";
 import { useEffect, useState } from "react";
+import { Metadata } from "next";
 
 export default function MealPlanPage() {
   const [currentDay, setCurrentDay] = useState<number>(0); // Pazartesi 0, Pazar 6
