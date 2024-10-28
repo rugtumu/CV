@@ -228,12 +228,13 @@ export const RESUME_DATA = {
       title: "Algorithmic Trading",
       techStack: [
         "Side Project",
+        "Machine Learning",
         "Python",
         "Algorithmic Trading",
         "TradingView",
         "Pine Script"
       ],
-      description: "I develop algorithms that scan cryptocurrency exchanges, as well as stock markets such as NASDAQ, NYSE, and BIST, using specific indicators. You can access my project's files on GitHub by clicking on the card.",
+      description: "I develop algorithms that scan cryptocurrency exchanges, as well as stock markets such as NASDAQ, NYSE, and BIST, using specific indicators. The latest addition to my project involves training models based on the past six years of daily Bitcoin data.",
       link: {
         label: "github.com/rugtumu/trade",
         href: "https://github.com/rugtumu/trade",

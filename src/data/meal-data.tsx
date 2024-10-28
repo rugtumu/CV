@@ -20,37 +20,37 @@ interface Meal {
       days: [
         {
           day: "Pazartesi",
-          lunch: { name: "Izgara Tavuk ve Bulgur Pilavı", calories: 550 },
-          dinner: { name: "Mercimek Çorbası ve Taze Fasulye", calories: 400 },
+          lunch: { name: "xxx", calories:  0o0},
+          dinner: { name: "Pırasa, Bulgur Pilavı", calories: 0o0 },
         },
         {
           day: "Salı",
-          lunch: { name: "Ton Balıklı Makarna", calories: 600 },
-          dinner: { name: "Karnıyarık ve Pilav", calories: 450 },
+          lunch: { name: "xxx", calories: 0o0 },
+          dinner: { name: "Karnıyarık ve Pilav", calories: 0o0 },
         },
         {
           day: "Çarşamba",
-          lunch: { name: "Izgara Köfte ve Tam Buğday Makarna", calories: 620 },
-          dinner: { name: "Barbunya ve Çoban Salata", calories: 420 },
+          lunch: { name: "xxx", calories: 0o0 },
+          dinner: { name: "Barbunya ve Çoban Salata", calories: 0o0 },
         },
         {
           day: "Perşembe",
-          lunch: { name: "Fırında Somon ve Esmer Pirinç", calories: 580 },
-          dinner: { name: "Yoğurtlu Ispanak ve Domates Çorbası", calories: 400 },
+          lunch: { name: "xxx", calories: 0o0 },
+          dinner: { name: "Yoğurtlu Ispanak ve Domates Çorbası", calories: 0o0 },
         },
         {
           day: "Cuma",
-          lunch: { name: "Tavuk Sote ve Makarna", calories: 600 },
+          lunch: { name: "xxx", calories: 0o0 },
           dinner: { name: "Kuru Fasulye ve Pilav", calories: 450 },
         },
         {
           day: "Cumartesi",
-          lunch: { name: "Izgara Bonfile ve Kinoa", calories: 650 },
+          lunch: { name: "xxx", calories: 0o0 },
           dinner: { name: "Sebzeli Dolma ve Yoğurt", calories: 430 },
         },
         {
           day: "Pazar",
-          lunch: { name: "Ton Balıklı Salata ve Tam Buğday Ekmeği", calories: 520 },
+          lunch: { name: "xxx", calories: 0o0 },
           dinner: { name: "Zeytinyağlı Enginar ve Bulgur Pilavı", calories: 410 },
         },
       ],
