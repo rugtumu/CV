@@ -22,14 +22,21 @@ import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 export const RESUME_DATA = {
   name: "Umut Gür",
   initials: "UG",
-  location: "Istanbul, Turkey",
-  locationLink: "https://www.google.com/maps/place/Istanbul/",
+  location: "İzmir, Turkey",
+  locationLink: "https://www.google.com/maps/place/Izmir/",
   about:
     "Data Analyst | Data Scientist | Mathematician",
   summary:
     "As a Data Analyst, I specialize in both analyzing large datasets for insights and developing predictive models to solve complex data problems. My expertise includes data cleaning, data visualization, and data management, along with machine learning and statistical modeling. I utilize tools such as Python, SQL, and Tableau to transform raw data into actionable insights and predictive solutions. Additionally, I work with big data processing tools and cloud platforms to optimize data-driven decision-making processes.",
   avatarUrl: "https://avatars.githubusercontent.com/u/150899294?s=400&u=54d40f937758ae3e54838c602f180e80ffbf0e63&v=4",
   personalWebsiteUrl: "",
+  hobbies: [
+    "Co-founder of the Mathematics Committee at Science Club [2019]",
+    "Chair of the Mathematics Committee at Science Club [2020-2021]",
+    "Volunteer representative of the Matematik Dünyası Dergisi at Boğaziçi University [2021-2022]",
+    "Active member of the university ice hockey team (Boğaziçi Blitz) [2022-2024]",
+    "Board member of the ice sports club (Boğaziçi Buz) [2023-2024]",
+  ],
   contact: {
     email: "umutgur7@gmail.com",
     tel: "",
@@ -59,24 +66,14 @@ export const RESUME_DATA = {
   ],
   work: [
     {
-      company: "Boğaziçi AI",
-      link: "https://bogaziciai.com/",
-      badges: [],
-      title: "Data Bootcamp",
-      start: "September",
-      end: "November 2023",
+      company: "Outlier",
+      link: "https://outlier.ai/",
+      badges: ["Remote"],
+      title: "AI Trainer",
+      start: "September 2024",
+      end: "Present",
       description:
-        "During a 10-week period, we worked on various projects covering topics such as data analysis and data science. In this process, I not only experienced teamwork similar to that in a business environment but also significantly improved my data analysis and data science skills.",
-    },
-    {
-      company: "Türkiye Buz Hokeyi Federasyonu",
-      link: "https://tbhf.org.tr/",
-      badges: [],
-      title: "Instructor of Ice Skating",
-      start: "March",
-      end: "2024",
-      description:
-        "For a month, I gave basic skating training at the Beykoz Ice Rink and introduced people to the ice hockey branch.",
+        "Contributing to the development of AI models at Outlier by crafting high-quality prompts and evaluating model responses using advanced metrics to identify and correct errors. Working on coding projects involving Python, with a focus on code generation, synthesis, and debugging tasks.",
     },
     {
       company: "Mentor Özel Ders",
@@ -87,7 +84,27 @@ export const RESUME_DATA = {
       end: null,
       description:
         "I have been teaching high school Math and Physics, as well as English, Calculus, and Physics 101 for about two years.",
-    },    
+    },
+    {
+      company: "Turkey Ice Hockey Federation",
+      link: "https://tbhf.org.tr/",
+      badges: ["On-site"],
+      title: "Instructor of Ice Skating",
+      start: "March",
+      end: "2024",
+      description:
+        "For a month, I gave basic skating training at the Beykoz Ice Rink and introduced people to the ice hockey branch.",
+    },
+    {
+      company: "Boğaziçi AI",
+      link: "https://bogaziciai.com/",
+      badges: [],
+      title: "Data Bootcamp",
+      start: "September",
+      end: "November 2023",
+      description:
+        "During a 10-week period, we worked on various projects covering topics such as data analysis and data science. In this process, I not only experienced teamwork similar to that in a business environment but also significantly improved my data analysis and data science skills.",
+    },     
   ],
   skills: [
     "SQL",

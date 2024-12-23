@@ -186,6 +186,15 @@ export default function Page() {
           </div>
         </Section>
 
+        <Section>
+          <h2 className="text-xl font-bold">Hobbies & Social Activities</h2>
+          <ul className="list-disc ml-5 text-pretty font-mono text-sm text-muted-foreground">
+            {RESUME_DATA.hobbies.map((hobby, index) => (
+              <li key={index}>{hobby}</li>
+            ))}
+          </ul>
+        </Section>
+
         <Section className="scroll-mb-16">
           <h2 className="text-xl font-bold">Projects & Certificates</h2>
           <div className="-mx-3 grid grid-cols-1 gap-3 md:grid-cols-3 lg:grid-cols-3">
