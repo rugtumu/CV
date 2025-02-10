@@ -66,10 +66,10 @@ export const RESUME_DATA = {
   ],
   work: [
     {
-      company: "Outlier",
-      link: "https://outlier.ai/",
+      company: "Scale AI",
+      link: "https://scale.com/",
       badges: ["Remote"],
-      title: "AI Trainer",
+      title: "Prompt Engineer",
       start: "September 2024",
       end: "Present",
       description:
