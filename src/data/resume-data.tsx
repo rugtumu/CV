@@ -73,7 +73,7 @@ export const RESUME_DATA = {
       start: "September 2024",
       end: "Present",
       description:
-        "Contributing to the development of AI models at Outlier by crafting high-quality prompts and evaluating model responses using advanced metrics to identify and correct errors. Working on coding projects involving Python, with a focus on code generation, synthesis, and debugging tasks.",
+        "Contributing to the development of AI models by crafting high-quality prompts and evaluating model responses using advanced metrics to identify and correct errors. Working on coding projects involving Python, with a focus on code generation, synthesis, and debugging tasks.",
     },
     {
       company: "Mentor Özel Ders",
