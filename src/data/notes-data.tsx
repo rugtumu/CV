@@ -2,7 +2,7 @@ interface Note {
     id: number;
     title: string;
     date: string;
-    videoUrl?: string; // '?' işareti, bu özelliğin opsiyonel olduğunu belirtir
+    videoUrl?: string;
     points: string[];
   }
 
