@@ -57,6 +57,5 @@ export const NOTES_DATA = [
         "Dış kısımlarda araları diş fırçasıyla temizleyebiliriz.",
       ],
     },
-    // Eğer burada 'points' özelliği olmayan bir not varsa, onu düzeltin.
   ];
   

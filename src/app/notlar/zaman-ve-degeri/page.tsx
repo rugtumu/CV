@@ -5,7 +5,7 @@ import { NOTES_DATA } from "@/data/zaman-ve-degeri";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Zaman ve Değeri",
+  title: "Zaman ve Değeri Üzerine",
   description: "",
 };
 
@@ -13,7 +13,7 @@ export default function NotesPage() {
   return (
     <div className="container relative mx-auto scroll-my-12 overflow-auto p-8 md:p-16">
       <section className="mx-auto w-full max-w-full space-y-8 bg-white">
-        <h1 className="text-2xl font-bold">Zaman ve Değeri</h1>
+        <h1 className="text-2xl font-bold">Zaman ve Değeri Üzerine</h1>
         {NOTES_DATA.map((note) => (
           <Card key={note.id}>
             <CardHeader>
