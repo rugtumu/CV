@@ -26,7 +26,6 @@ export default function NotesPage() {
                   note.title
                 )}
               </h2>
-              <p className="text-sm text-muted-foreground">{note.date}</p>
             </CardHeader>
             <CardContent>              
               {note.content && note.content.length > 0 ? (
@@ -37,6 +36,7 @@ export default function NotesPage() {
                  <p>Bu video için henüz not eklenmemiş.</p>
               )}              
             </CardContent>
+            <p className="text-sm text-muted-foreground">{note.date}</p>
           </Card>
         ))}
       </section>
