@@ -10,6 +10,7 @@ import { RESUME_DATA } from "@/data/resume-data";
 import { ProjectCard } from "@/components/project-card";
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import { useState, useEffect } from "react";
+import avatarImage from "@/images/logos/avatar.jpg";
 
 export const metadata: Metadata = {
   title: `${RESUME_DATA.name}`,
@@ -91,6 +92,11 @@ export default function Page() {
               ) : null}
             </div>
           </div>
+
+          <Avatar className="h-40 w-40 mt-4 md:mt-0 md:ml-4">
+            <AvatarImage alt={RESUME_DATA.name} src={RESUME_DATA.avatarUrl} />
+            <AvatarFallback>{RESUME_DATA.initials}</AvatarFallback>
+          </Avatar>
         </div>
         <Section>
           <h2 className="text-xl font-bold">About</h2>
