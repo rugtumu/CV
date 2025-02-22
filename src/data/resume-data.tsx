@@ -18,7 +18,7 @@ import {
   YearProgressLogo,
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
-import avatarImage from "@/images/logos/avatar.jpg";
+import avatarImage from "@/public/images/avatar.jpg";
 
 export const RESUME_DATA = {
   name: "Umut Gür",
@@ -29,7 +29,7 @@ export const RESUME_DATA = {
     "Data Analyst | Data Scientist | Mathematician",
   summary:
     "As a Data Analyst, I specialize in both analyzing large datasets for insights and developing predictive models to solve complex data problems. My expertise includes data cleaning, data visualization, and data management, along with machine learning and statistical modeling. I utilize tools such as Python, SQL, and Tableau to transform raw data into actionable insights and predictive solutions. Additionally, I work with big data processing tools and cloud platforms to optimize data-driven decision-making processes.",
-  avatarUrl: "avatarImage",
+  avatarUrl: "@/public/images/avatar.jpg",
   personalWebsiteUrl: "",
   hobbies: [
     "Co-founder of the Mathematics Committee at Science Club [2019]",
@@ -82,7 +82,7 @@ export const RESUME_DATA = {
       badges: ["Freelance"],
       title: "Instructor",
       start: "2022",
-      end: null,
+      end: "2024",
       description:
         "I have been teaching high school Math and Physics, as well as English, Calculus, and Physics 101 for about two years.",
     },

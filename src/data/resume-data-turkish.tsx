@@ -59,14 +59,24 @@ import {
     ],
     work: [
       {
-        company: "Boğaziçi AI",
-        link: "https://bogaziciai.com/",
-        badges: [],
-        title: "Data Bootcamp",
-        start: "Eylül",
-        end: "Kasım 2023",
+        company: "Scale AI",
+        link: "https://scale.com/",
+        badges: ["Uzaktan"],
+        title: "Prompt Engineer",
+        start: "Eylül 2024",
+        end: "Günümüz",
         description:
-          "10 haftalık bir süreç boyunca, verileri analiz etme ve veri bilimi gibi konuları kapsayan çeşitli projeler üzerinde çalıştık. Bu süreçte sadece iş ortamındaki gibi takım çalışması deneyimi yaşamakla kalmadım, aynı zamanda veri analizi ve veri bilimi becerilerimi de önemli ölçüde geliştirdim.",
+          "Yüksek kaliteli istemler oluşturarak ve hataları belirlemek ve düzeltmek için gelişmiş ölçümler kullanarak model yanıtlarını değerlendirerek AI modellerinin geliştirilmesine katkıda bulunmak. Code generation, synthesis ve debugging görevlerine odaklanarak Python içeren kodlama projeleri üzerinde çalışmak.",
+      },
+      {
+        company: "Mentor Özel Ders",
+        link: "https://mentorozelders.com/",
+        badges: ["Serbest Çalışan"],
+        title: "Instructor",
+        start: "2022",
+        end: "2024",
+        description:
+          "Yaklaşık iki yıldır lise seviyesinde Matematik ve Fiziğin yanı sıra İngilizce, Kalkülüs ve Fizik 101 dersleri veriyorum.",
       },
       {
         company: "Türkiye Buz Hokeyi Federasyonu",
@@ -79,15 +89,15 @@ import {
           "Bir aylık bir süreç boyunca Beykoz Buz Pistinde temel kayma eğitimi verdim ve insanları buz hokeyi branşıyla tanıştırdım.",
       },
       {
-        company: "Mentor Özel Ders",
-        link: "https://mentorozelders.com/",
-        badges: ["Serbest Çalışan"],
-        title: "Instructor",
-        start: "2022",
-        end: null,
+        company: "Boğaziçi AI",
+        link: "https://bogaziciai.com/",
+        badges: [],
+        title: "Data Bootcamp",
+        start: "Eylül",
+        end: "Kasım 2023",
         description:
-          "Yaklaşık iki yıldır lise seviyesinde Matematik ve Fiziğin yanı sıra İngilizce, Kalkülüs ve Fizik 101 dersleri veriyorum.",
-      },    
+          "10 haftalık bir süreç boyunca, verileri analiz etme ve veri bilimi gibi konuları kapsayan çeşitli projeler üzerinde çalıştık. Bu süreçte sadece iş ortamındaki gibi takım çalışması deneyimi yaşamakla kalmadım, aynı zamanda veri analizi ve veri bilimi becerilerimi de önemli ölçüde geliştirdim.",
+      },
     ],
     skills: [
       "SQL",

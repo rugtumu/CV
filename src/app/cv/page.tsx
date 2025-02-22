@@ -89,11 +89,6 @@ export default function Page() {
               ) : null}
             </div>
           </div>
-
-          <Avatar className="h-40 w-40 mt-4 md:mt-0 md:ml-4">
-            <AvatarImage alt={RESUME_DATA.name} src={RESUME_DATA.avatarUrl} />
-            <AvatarFallback>{RESUME_DATA.initials}</AvatarFallback>
-          </Avatar>
         </div>
         <Section>
           <h2 className="text-xl font-bold">About</h2>
