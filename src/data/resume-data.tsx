@@ -23,8 +23,8 @@ import avatarImage from "@/public/images/avatar.jpg";
 export const RESUME_DATA = {
   name: "Umut Gür",
   initials: "UG",
-  location: "İzmir, Turkey",
-  locationLink: "https://www.google.com/maps/place/Izmir/",
+  location: "İstanbul, Turkey",
+  locationLink: "https://www.google.com/maps/place/Istanbul/",
   about:
     "Data Analyst | Data Scientist | Mathematician",
   summary:

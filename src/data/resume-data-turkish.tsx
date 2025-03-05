@@ -27,7 +27,7 @@ import {
     about:
       "Veri Analisti | Veri Bilimcisi | Matematikçi",
     summary:
-      "Bir veri analisti olarak, hem büyük veri setlerini analiz ederek içgörüler elde etme hem de karmaşık veri problemlerini çözmek için modeller geliştirme konusunda yetkinim. Uzmanlık alanlarım arasında veri temizleme, veri görselleştirme ve veri yönetimi bulunmakta, ayrıca makine öğrenimi ve istatistiksel modelleme konusunda deneyim sahibiyim. Python, SQL ve Tableau gibi araçları kullanarak ham veriyi uygulanabilir içgörülere ve tahmine dayalı çözümlere dönüştürüyorum. Ayrıca, büyük veri işleme araçları ve bulut platformları ile çalışarak veri odaklı karar alma süreçlerini optimize ediyorum.",
+      `Bir veri analisti olarak, hem büyük veri setlerini analiz ederek içgörüler elde etme hem de karmaşık veri problemlerini çözmek için modeller geliştirme konusunda yetkinim. Uzmanlık alanlarım arasında veri temizleme, veri görselleştirme ve veri yönetimi bulunmakta, ayrıca makine öğrenimi ve istatistiksel modelleme konusunda deneyim sahibiyim. Python, SQL ve Tableau gibi araçları kullanarak ham veriyi uygulanabilir içgörülere ve tahmine dayalı çözümlere dönüştürüyorum. Ayrıca, büyük veri işleme araçları ve bulut platformları ile çalışarak veri odaklı karar alma süreçlerini optimize ediyorum.`,
     avatarUrl: "https://avatars.githubusercontent.com/u/150899294?s=400&u=54d40f937758ae3e54838c602f180e80ffbf0e63&v=4",
     personalWebsiteUrl: "",
     contact: {
