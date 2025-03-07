@@ -16,6 +16,14 @@ export const NOTES_DATA = [
       points: [
       ],
     },
+    {
+      id: 2,
+      title: "Altın Elbiseli Adam Videolarından Notlar",
+      date: "",
+      videoUrl: "/notlar/aea",
+      points: [
+      ],
+    },
 
   ];
   

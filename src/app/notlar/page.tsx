@@ -20,7 +20,7 @@ export default function NotesPage() {
             <CardHeader>
               <h2 className="text-xl font-semibold">
                 {note.videoUrl ? (
-                    <Link href={note.videoUrl} target="_blank" rel="noopener noreferrer">
+                    <Link href={note.videoUrl} target="_blank" rel="noopener noreferrer" className="hover:underline hover:bg-gray-200 hover:w-64 hover:rounded-lg">
                         {note.title}
                     </Link>
                 ) : (
