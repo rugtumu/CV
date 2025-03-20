@@ -31,7 +31,7 @@ import {
     avatarUrl: "https://avatars.githubusercontent.com/u/150899294?s=400&u=54d40f937758ae3e54838c602f180e80ffbf0e63&v=4",
     personalWebsiteUrl: "",
     contact: {
-      email: "umutgur7@gmail.com",
+      email: "rugtumu@protonmail.com",
       tel: "",
       social: [
         {
