@@ -39,7 +39,7 @@ export const RESUME_DATA = {
     "Board member of the ice sports club (Boğaziçi Buz) [2023-2024]",
   ],
   contact: {
-    email: "umutgur7@gmail.com",
+    email: "rugtumu@protonmail.com",
     tel: "",
     social: [
       {
