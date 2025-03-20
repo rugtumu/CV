@@ -32,11 +32,11 @@ export const RESUME_DATA = {
   avatarUrl: "@/public/images/avatar.jpg",
   personalWebsiteUrl: "",
   hobbies: [
-    "Co-founder of the Mathematics Committee at Science Club [2019]",
-    "Chair of the Mathematics Committee at Science Club [2020-2021]",
-    "Volunteer representative of the Matematik Dünyası Dergisi at Boğaziçi University [2021-2022]",
+    "Board member of the ice sports team as an accountant (Boğaziçi Buz) [2023-2024]",
     "Active member of the university ice hockey team (Boğaziçi Blitz) [2022-2024]",
-    "Board member of the ice sports club (Boğaziçi Buz) [2023-2024]",
+    "Volunteer representative of the Matematik Dünyası Dergisi at Boğaziçi University [2021-2022]",
+    "Chair of the Mathematics Committee and accountant at Science Club [2020-2021]",
+    "Co-founder of the Mathematics Committee at Science Club [2019]",
   ],
   contact: {
     email: "rugtumu@protonmail.com",
