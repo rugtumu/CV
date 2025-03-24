@@ -25,7 +25,7 @@ güne sönümlenmemesi adına protestolar ekonomik boyutla çeşitlendirilmelidi
 olacaktır.
 
 Markalara uyguladığımız boykot bölgesel ve genel sıkıntılar yaratacaktır. Şirketler tarafından dikkat çekecektir. Dolaşımdaki para miktarı 
-toplam TL arzının çok küçük bir kısmıdır (yaklaşık %10). Bankalardan toplu nakit çekimleri bankacılık sistemini kilitleyecektir.
+toplam TL arzının çok küçük bir kısmıdır (yaklaşık %10). Bu yüzden bankalardan toplu nakit çekimleri bankacılık sistemini kilitleyecektir.
 
 Yıllardır tüketim ülkesi olarak varlığımızı sürdürürken eriyen alım gücümüzle işin sıkıntısını bizler çekmekteyiz. Fakat asıl gücün bizlerin 
 elinde olduğunu ne yazık ki unutmaktayız.
