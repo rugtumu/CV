@@ -31,7 +31,7 @@ import {
     avatarUrl: "https://avatars.githubusercontent.com/u/150899294?s=400&u=54d40f937758ae3e54838c602f180e80ffbf0e63&v=4",
     personalWebsiteUrl: "",
     contact: {
-      email: "rugtumu@protonmail.com",
+      email: "umutgur@tutamail.com",
       tel: "",
       social: [
         {
@@ -62,7 +62,7 @@ import {
         company: "Scale AI",
         link: "https://scale.com/",
         badges: ["Uzaktan"],
-        title: "Prompt Engineer",
+        title: "RLHF - Coding Team",
         start: "Eylül 2024",
         end: "Günümüz",
         description:

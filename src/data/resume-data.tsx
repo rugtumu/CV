@@ -39,7 +39,7 @@ export const RESUME_DATA = {
     "Co-founder of the Mathematics Committee at Science Club [2019]",
   ],
   contact: {
-    email: "rugtumu@protonmail.com",
+    email: "umutgur@tutamail.com",
     tel: "",
     social: [
       {
@@ -70,7 +70,7 @@ export const RESUME_DATA = {
       company: "Scale AI",
       link: "https://scale.com/",
       badges: ["Remote"],
-      title: "Prompt Engineer",
+      title: "RLHF - Coding Team",
       start: "September 2024",
       end: "Present",
       description:
