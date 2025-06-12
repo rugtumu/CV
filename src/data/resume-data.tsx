@@ -29,8 +29,15 @@ export const RESUME_DATA = {
     "Data Analyst | Data Scientist | Mathematician",
   summary:
     "As a Data Analyst, I specialize in both analyzing large datasets for insights and developing predictive models to solve complex data problems. My expertise includes data cleaning, data visualization, and data management, along with machine learning and statistical modeling. I utilize tools such as Python, SQL, and Tableau to transform raw data into actionable insights and predictive solutions. Additionally, I work with big data processing tools and cloud platforms to optimize data-driven decision-making processes.",
+  summaryPoints: [
+    "Specialized in analyzing large datasets for insights and developing predictive models",
+    "Experienced in data cleaning, data visualization, and data management",
+    "Proficient in machine learning and statistical modeling techniques",
+    "Utilize Python, SQL, and Tableau to transform raw data into actionable insights",
+    "Work with big data processing tools and cloud platforms for optimized decision-making"
+  ],
   avatarUrl: "@/public/images/avatar.jpg",
-  personalWebsiteUrl: "",
+  personalWebsiteUrl: "https://www.umutgur.com/",
   hobbies: [
     "Board member of the ice sports team as an accountant (Boğaziçi Buz) [2023-2024]",
     "Active member of the university ice hockey team (Boğaziçi Blitz) [2022-2024]",
@@ -62,40 +69,11 @@ export const RESUME_DATA = {
       degree: "Bachelor's Degree in Mathematics",
       start: "2018",
       end: "2024",
+      range: "2018 - 2024",
       gpa: "GPA: 3.11"
     },
   ],
   work: [
-    {
-      company: "Scale AI",
-      link: "https://scale.com/",
-      badges: ["Remote"],
-      title: "RLHF - Coding Team",
-      start: "September 2024",
-      end: "Present",
-      description:
-        "Contributing to the development of AI models by crafting high-quality prompts and evaluating model responses using advanced metrics to identify and correct errors. Working on coding projects involving Python, with a focus on code generation, synthesis, and debugging tasks.",
-    },
-    {
-      company: "Mentor Özel Ders",
-      link: "https://mentorozelders.com/",
-      badges: ["Freelance"],
-      title: "Instructor",
-      start: "2022",
-      end: "2024",
-      description:
-        "I have been teaching high school Math and Physics, as well as English, Calculus, and Physics 101 for about two years.",
-    },
-    {
-      company: "Turkey Ice Hockey Federation",
-      link: "https://tbhf.org.tr/",
-      badges: ["On-site"],
-      title: "Instructor of Ice Skating",
-      start: "March",
-      end: "2024",
-      description:
-        "For a month, I gave basic skating training at the Beykoz Ice Rink and introduced people to the ice hockey branch.",
-    },
     {
       company: "Boğaziçi AI",
       link: "https://bogaziciai.com/",
@@ -103,23 +81,81 @@ export const RESUME_DATA = {
       title: "Data Bootcamp",
       start: "September",
       end: "November 2023",
+      range: "2023",
       description:
         "During a 10-week period, we worked on various projects covering topics such as data analysis and data science. In this process, I not only experienced teamwork similar to that in a business environment but also significantly improved my data analysis and data science skills.",
-    },     
+      responsibilities: [
+        "Completed intensive 10-week data science and analysis program",
+        "Worked on various real-world data analysis and data science projects",
+        "Collaborated in teams simulating business environment dynamics",
+        "Significantly enhanced data analysis and data science skill set"
+      ]
+    },
+    /*{
+      company: "Mentor Özel Ders",
+      link: "https://mentorozelders.com/",
+      badges: ["Freelance"],
+      title: "Instructor",
+      start: "2022",
+      end: "2024",
+      range: "",
+      description:
+        "I have been teaching high school Math and Physics, as well as English, Calculus, and Physics 101 for about two years.",
+    },*/
+    {
+      company: "Turkey Ice Hockey Federation",
+      link: "https://tbhf.org.tr/",
+      badges: ["On-site"],
+      title: "Instructor of Ice Skating",
+      start: "March",
+      end: "2024",
+      range: "2024",
+      description:
+        "For a month, I gave basic skating training at the Beykoz Ice Rink and introduced people to the ice hockey branch.",
+      responsibilities: [
+        "Provided basic skating training at Beykoz Ice Rink for one month",
+        "Introduced participants to ice hockey fundamentals and techniques",
+        "Developed training programs for beginners in ice skating"
+      ]        
+    },
+    {
+      company: "Scale AI",
+      link: "https://scale.com/",
+      badges: ["Remote"],
+      title: "RLHF - Coding Team",
+      start: "September 2024",
+      end: "Present",
+      range: "2024 - Present",
+      description:
+        "Contributing to the development of AI models by crafting high-quality prompts and evaluating model responses using advanced metrics to identify and correct errors. Working on coding projects involving Python, with a focus on code generation, synthesis, and debugging tasks.",
+      responsibilities: [
+        "Contributing to AI model development by crafting high-quality prompts",
+        "Evaluating model responses using advanced metrics to identify and correct errors",
+        "Work on Python coding projects with focus on code generation and synthesis",
+        "Handle debugging tasks and optimize model performance"
+      ]
+      },
   ],
   skills: [
     "SQL",
     "Python",
     "scikit-learn",
     "Pandas",
+    "NumPy",
+    "PySpark",
+    "PyTorch",
     "Seaborn",
     "Matplotlib",
     "ETL/ELT",
     "Tableau",
-    "Bash",
+    "Git Bash",
     "C++",
     "LaTex",
-    "Algorithmic Trading",
+    "KaTeX",
+    "React",
+    "Next.js",
+    "TypeScript",
+    "Tailwind CSS",
   ],
   /*general_skills: [
     "SQL",
@@ -142,7 +178,7 @@ export const RESUME_DATA = {
         "A/B Tests",
       ],
       description:
-      "Certified as a Data Analyst, I have demonstrated expertise in analytic fundamentals, exploratory analysis, data management, and visualization/reporting. This certification validates my ability to perform A/B tests, clean and process data using SQL, analyze data using Python, and effectively communicate insights through dashboards and presentations.",      
+      "~80 hours certification program with exams and recorded presentations.",      
       link: {
         label: "datacamp.com",
         href: "https://www.datacamp.com/certificate/DA0025829515704",
@@ -157,7 +193,7 @@ export const RESUME_DATA = {
         "Supervised Learning"
       ],
       description:
-        "As a certified Associate Data Scientist, I have demonstrated proficiency in data management, exploratory analysis, statistical experimentation, modeling, and data science programming. I also gained skills in communicating actionable insights through reports and dashboards, preparing me for entry-level data science roles.",      
+        "~80 hours certification program with exams.",      
       link: {
         label: "datacamp.com",
         href: "https://www.datacamp.com/certificate/DSA0012506867305",
@@ -172,7 +208,7 @@ export const RESUME_DATA = {
         "Data Warehousing",
       ],
       description:
-        "Certified as an Associate Data Engineer, I have demonstrated proficiency in data management and exploratory analysis. This certification validates my ability to clean and prepare data using SQL for further analysis, and to understand common methods of working with data to effectively collaborate with data analysts and scientists.",
+        "~80 hours certification program with exams.",
       link: {
         label: "datacamp.com",
         href: "https://www.datacamp.com/certificate/DEA0014044089169",
@@ -187,7 +223,7 @@ export const RESUME_DATA = {
         "Exploratory Analysis",
       ],
       description:
-      "This certification validates my ability to clean and process data, identify data quality issues, and perform transformations using SQL, as well as calculate metrics and report on data characteristics and feature relationships using PostgreSQL.",      
+      "~50 hours certification program with an exam.",
       link: {
         label: "datacamp.com",
         href: "https://www.datacamp.com/certificate/SQA0012414864755",
@@ -203,7 +239,7 @@ export const RESUME_DATA = {
         "ChatGPT",
       ],
       description:
-        "Certified in AI Fundamentals, I have demonstrated proficiency in identifying use cases for AI sub-domains, understanding generative AI, constructing prompts for generative AI tools, and explaining the ethical considerations of AI and generative AI solutions.",      
+        "~20 hours certification program.",      
       link: {
         label: "datacamp.com",
         href: "https://www.datacamp.com/skill-verification/AIF0020785439675",
@@ -230,13 +266,10 @@ export const RESUME_DATA = {
         "Intrusion Detection Systems",
         "Network Security",        
         "Network Architecture",
-        "Authentication Systems",        
-        "SIEM Tools",
-        "Linux",
-        "Bash",
+        "Authentication Systems",
       ],
       description:
-        "This certificate consists of hands-on, practice based assessments and are designed to prepare candidates for entry-level roles in cybersecurity.",
+      "~60 hours certification program.",
       link: {
         label: "coursera.org",
         href: "https://coursera.org/share/1198d12171bf94766669c19c02463390",
@@ -245,7 +278,6 @@ export const RESUME_DATA = {
     {
       title: "umutgur.com",
       techStack: [
-        "Side Project",
         "TypeScript",
         "Next.js",
         "React"
@@ -259,20 +291,19 @@ export const RESUME_DATA = {
     {
       title: "Algorithmic Trading",
       techStack: [
-        "Side Project",
         "Machine Learning",
         "Python",
         "Algorithmic Trading",
         "TradingView",
         "Pine Script"
       ],
-      description: "I develop algorithms that scan cryptocurrency exchanges, as well as stock markets such as NASDAQ, NYSE, and BIST, using specific indicators. The latest addition to my project involves training models based on the past six years of daily Bitcoin data.",
+      description: "Worked on algorithms that scan cryptocurrency exchanges and stock markets using specific indicators.",
       link: {
         label: "github.com/rugtumu/trade",
         href: "https://github.com/rugtumu/trade",
       },
     },
-    {
+    /*{
       title: "bogaziciblitz.com",
       techStack: [
         "Side Project",
@@ -285,6 +316,6 @@ export const RESUME_DATA = {
         label: "bogaziciblitz.com",
         href: "https://bogaziciblitz.com/",
       },
-    },
+    },*/
   ],
 } as const;

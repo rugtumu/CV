@@ -11,6 +11,7 @@ import { ProjectCard } from "@/components/project-card";
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import { useState, useEffect } from "react";
 import avatarImage from "/public/images/avatar.jpg";
+import { WebsiteIcon } from "@/components/icons";
 
 export const metadata: Metadata = {
   title: `${RESUME_DATA.name}`,
@@ -64,6 +65,19 @@ export default function Page() {
                   </a>
                 </Button>
               ) : null}
+              {RESUME_DATA.personalWebsiteUrl ? (
+                <Button
+                  className="size-35"
+                  variant="outline"
+                  size="icon"
+                  asChild
+                >
+                  <a href={RESUME_DATA.personalWebsiteUrl} className="flex items-center gap-1 underline">
+                    <WebsiteIcon className="w-4 h-4 text-black" />
+                    {"umutgur.com"}
+                  </a>
+                </Button>
+              ) : null}
               {RESUME_DATA.contact.social.map((social) => (
                 <Button
                   key={social.name}
@@ -77,7 +91,7 @@ export default function Page() {
                     {social.text}
                   </a>
                 </Button>
-              ))}
+              ))}              
             </div>
             <div className="hidden flex-col gap-x-1 font-mono text-sm text-muted-foreground">
               {RESUME_DATA.contact.email ? (
@@ -112,9 +126,43 @@ export default function Page() {
 
         <Section>
           <h2 className="text-xl font-bold">About</h2>
-          <p className="text-pretty font-mono text-sm text-muted-foreground">
-            {RESUME_DATA.summary}
-          </p>
+          <ul className="list-disc ml-5 text-pretty font-mono text-sm text-muted-foreground space-y-1">
+            {RESUME_DATA.summaryPoints.map((point, index) => (
+              <li key={index}>{point}</li>
+            ))}
+          </ul>
+        </Section>
+        <Section>
+          <h2 className="text-xl font-bold">Education</h2>
+          {RESUME_DATA.education.map((education) => {
+            return (
+              <Card key={education.school}>
+                <CardHeader>
+                  <div className="flex items-center justify-between gap-x-2 text-base">
+                    <div className="font-semibold leading-none">
+                      {education.school}
+                    </div>     
+                                   
+                    <div className="text-sm tabular-nums text-gray-500">
+                      {education.range}
+                    </div>
+                  </div>
+
+                  <div className="flex items-center justify-between gap-x-2 text-base">
+                    <CardContent className="mt-18">
+                        {education.degree}
+                    </CardContent>
+
+                    <div className="text-right">
+                          <div className="text-xs tabular-nums text-gray-500">
+                          {education.gpa}
+                          </div>
+                        </div>
+                  </div>                
+                </CardHeader>
+              </Card>
+            );
+          })}
         </Section>
         <Section>
           <h2 className="text-xl font-bold">Work Experience</h2>
@@ -141,7 +189,7 @@ export default function Page() {
                       </span>
                     </h3>
                     <div className="text-sm tabular-nums text-gray-500">
-                      {work.start} - {work.end ?? "Present"}
+                      {work.range}
                     </div>
                   </div>
 
@@ -150,40 +198,12 @@ export default function Page() {
                   </h4>
                 </CardHeader>
                 <CardContent className="mt-2 text-xs">
-                  {work.description}
+                  <ul className="list-disc ml-4 space-y-1">
+                    {work.responsibilities.map((responsibility, index) => (
+                      <li key={index}>{responsibility}</li>
+                    ))}
+                  </ul>
                 </CardContent>
-              </Card>
-            );
-          })}
-        </Section>
-        <Section>
-          <h2 className="text-xl font-bold">Education</h2>
-          {RESUME_DATA.education.map((education) => {
-            return (
-              <Card key={education.school}>
-                <CardHeader>
-                  <div className="flex items-center justify-between gap-x-2 text-base">
-                    <div className="font-semibold leading-none">
-                      {education.school}
-                    </div>     
-                                   
-                    <div className="text-sm tabular-nums text-gray-500">
-                      {education.start} - {education.end}
-                    </div>
-                  </div>
-
-                  <div className="flex items-center justify-between gap-x-2 text-base">
-                    <CardContent className="mt-18">
-                        {education.degree}
-                    </CardContent>
-
-                    <div className="text-right">
-                          <div className="text-xs tabular-nums text-gray-500">
-                          {education.gpa}
-                          </div>
-                        </div>
-                  </div>                
-                </CardHeader>
               </Card>
             );
           })}
@@ -212,7 +232,7 @@ export default function Page() {
 
         <Section className="scroll-mb-16">
           <h2 className="text-xl font-bold">Projects & Certificates</h2>
-          <div className="-mx-3 grid grid-cols-1 gap-3 md:grid-cols-3 lg:grid-cols-3">
+          <div className="-mx-4 grid grid-cols-2 gap-3 md:grid-cols-4 lg:grid-cols-4">
             {RESUME_DATA.projects.map((project) => {
               return (
                 <ProjectCard
