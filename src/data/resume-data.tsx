@@ -243,6 +243,20 @@ export const RESUME_DATA = {
       },
     },
     {
+      title: "umutgur.com",
+      techStack: [
+        "Side Project",
+        "TypeScript",
+        "Next.js",
+        "React"
+      ],
+      description: "I built a website from a template from Once UI. It is a personal portfolio website that showcases my projects and skills.",
+      link: {
+        label: "umutgur.com",
+        href: "https://umutgur.com/",
+      },
+    },
+    {
       title: "Algorithmic Trading",
       techStack: [
         "Side Project",
@@ -256,20 +270,6 @@ export const RESUME_DATA = {
       link: {
         label: "github.com/rugtumu/trade",
         href: "https://github.com/rugtumu/trade",
-      },
-    },
-    {
-      title: "umutgur.com",
-      techStack: [
-        "Side Project",
-        "TypeScript",
-        "Next.js",
-        "React"
-      ],
-      description: "I built a website from a public template which belongs to Bartosz Jarocki. Also my current CV.",
-      link: {
-        label: "umutgur.com",
-        href: "https://umutgur.com/",
       },
     },
     {

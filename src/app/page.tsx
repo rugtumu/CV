@@ -10,7 +10,7 @@ import { RESUME_DATA } from "@/data/resume-data";
 import { ProjectCard } from "@/components/project-card";
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import { useState, useEffect } from "react";
-import avatarImage from "@/public/images/avatar.jpg";
+import avatarImage from "/public/images/avatar.jpg";
 
 export const metadata: Metadata = {
   title: `${RESUME_DATA.name}`,
@@ -92,7 +92,24 @@ export default function Page() {
               ) : null}
             </div>
           </div>
+
+          {/* Avatar - Sağ üst köşe */}
+          <div className="ml-6">
+            <Avatar className="size-40">
+              <AvatarImage 
+                alt={RESUME_DATA.name} 
+                src={avatarImage.src || "/images/avatar.jpg"} 
+              />
+              <AvatarFallback>
+                {RESUME_DATA.name
+                  .split(" ")
+                  .map((n) => n[0])
+                  .join("")}
+              </AvatarFallback>
+            </Avatar>
+          </div>
         </div>
+
         <Section>
           <h2 className="text-xl font-bold">About</h2>
           <p className="text-pretty font-mono text-sm text-muted-foreground">
@@ -210,9 +227,10 @@ export default function Page() {
           </div>
         </Section>
       </section>
+      {/*}
       <p>
       ✷✷
-      </p>
+      </p>*/}
     </main>
   );
 }
