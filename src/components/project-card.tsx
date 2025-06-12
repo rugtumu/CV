@@ -24,7 +24,7 @@ export function ProjectCard({ title, description, tags, link }: Props) {
       rel={link ? "noopener noreferrer" : undefined}
       className="block h-full"
     >
-      <Card className="flex flex-col h-full overflow-hidden border border-muted p-3 hover:shadow-lg transition-shadow duration-200">
+      <Card className="flex flex-col h-full overflow-hidden border-[1.5px] border-gray-300 p-3 hover:shadow-lg transition-shadow duration-200">
         <CardHeader>
           <div className="space-y-1">
             <CardTitle className="text-base">
@@ -35,7 +35,7 @@ export function ProjectCard({ title, description, tags, link }: Props) {
                 {link.replace("https://", "").replace("www.", "").replace("/", "")}
               </div>
             )}
-            <CardDescription className="font-mono text-xs print:text-[10px]">
+            <CardDescription className="font-normal text-xs print:text-[10px]">
               {description}
             </CardDescription>
           </div>

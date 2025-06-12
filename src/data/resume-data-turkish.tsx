@@ -22,14 +22,28 @@ import {
   export const RESUME_DATA_TR = {
     name: "Umut Gür",
     initials: "UG",
-    location: "Istanbul, Türkiye",
+    location: "İzmir, Türkiye",
     locationLink: "https://www.google.com/maps/place/Istanbul/",
     about:
       "Veri Analisti | Veri Bilimcisi | Matematikçi",
     summary:
       `Bir veri analisti olarak, hem büyük veri setlerini analiz ederek içgörüler elde etme hem de karmaşık veri problemlerini çözmek için modeller geliştirme konusunda yetkinim. Uzmanlık alanlarım arasında veri temizleme, veri görselleştirme ve veri yönetimi bulunmakta, ayrıca makine öğrenimi ve istatistiksel modelleme konusunda deneyim sahibiyim. Python, SQL ve Tableau gibi araçları kullanarak ham veriyi uygulanabilir içgörülere ve tahmine dayalı çözümlere dönüştürüyorum. Ayrıca, büyük veri işleme araçları ve bulut platformları ile çalışarak veri odaklı karar alma süreçlerini optimize ediyorum.`,
-    avatarUrl: "https://avatars.githubusercontent.com/u/150899294?s=400&u=54d40f937758ae3e54838c602f180e80ffbf0e63&v=4",
-    personalWebsiteUrl: "",
+    summaryPoints: [
+    "Büyük veri setlerini analiz ederek içgörü çıkarma ve modeller geliştirme",
+    "Veri temizleme, görselleştirme ve yönetimi",
+    "Makine öğrenimi ve istatistiksel modelleme tekniklerine aşina",
+    "Ham verileri Python, SQL ve Tableau kullanarak anlamlı analizlere dönüştürme",
+    "Karar alma süreçlerini kolaylaştırmak için büyük veri işleme araçları ve bulut platformları kullanımı",
+    ],
+    avatarUrl: "@/public/images/avatar.jpg",
+    personalWebsiteUrl: "https://www.umutgur.com/",
+    hobbies: [
+    "Boğaziçi Üniversitesi Buz Sporları Takımı yönetim kurulu üyesi (sayman) [2023-2024]",
+    "Boğaziçi Üniversitesi Buz Hokey Takımı (Boğaziçi Blitz) aktif üyesi ve oyuncusu [2022-2024]",
+    "Matematik Dünyası Dergisi'nin Boğaziçi Üniversitesi temsilcisi [2021-2022]",
+    "Bilim Kulübü Matematik Kurulu başkanı [2020-2021]",
+    "Bilim Kulübü Matematik Kurulu kurucu üyesi [2019]",
+  ],
     contact: {
       email: "umutgur@tutamail.com",
       tel: "",
@@ -54,40 +68,11 @@ import {
         degree: "Matematik Lisans Derecesi",
         start: "2018",
         end: "2024",
+        range: "2018 - 2024",
         gpa: "Ortalama: 3.11"
       },
     ],
     work: [
-      {
-        company: "Scale AI",
-        link: "https://scale.com/",
-        badges: ["Uzaktan"],
-        title: "RLHF - Coding Team",
-        start: "Eylül 2024",
-        end: "Günümüz",
-        description:
-          "Yüksek kaliteli istemler oluşturarak ve hataları belirlemek ve düzeltmek için gelişmiş ölçümler kullanarak model yanıtlarını değerlendirerek AI modellerinin geliştirilmesine katkıda bulunmak. Code generation, synthesis ve debugging görevlerine odaklanarak Python içeren kodlama projeleri üzerinde çalışmak.",
-      },
-      {
-        company: "Mentor Özel Ders",
-        link: "https://mentorozelders.com/",
-        badges: ["Serbest Çalışan"],
-        title: "Instructor",
-        start: "2022",
-        end: "2024",
-        description:
-          "Yaklaşık iki yıldır lise seviyesinde Matematik ve Fiziğin yanı sıra İngilizce, Kalkülüs ve Fizik 101 dersleri veriyorum.",
-      },
-      {
-        company: "Türkiye Buz Hokeyi Federasyonu",
-        link: "https://tbhf.org.tr/",
-        badges: [],
-        title: "Buz Pateni Eğitmeni",
-        start: "Mart",
-        end: "2024",
-        description:
-          "Bir aylık bir süreç boyunca Beykoz Buz Pistinde temel kayma eğitimi verdim ve insanları buz hokeyi branşıyla tanıştırdım.",
-      },
       {
         company: "Boğaziçi AI",
         link: "https://bogaziciai.com/",
@@ -95,8 +80,59 @@ import {
         title: "Data Bootcamp",
         start: "Eylül",
         end: "Kasım 2023",
+        range: "2023",
         description:
           "10 haftalık bir süreç boyunca, verileri analiz etme ve veri bilimi gibi konuları kapsayan çeşitli projeler üzerinde çalıştık. Bu süreçte sadece iş ortamındaki gibi takım çalışması deneyimi yaşamakla kalmadım, aynı zamanda veri analizi ve veri bilimi becerilerimi de önemli ölçüde geliştirdim.",
+        responsibilities: [
+        "Yoğun geçen 10 haftalık veri bilimi ve analiz programını tamamladım",
+        "Gerçek dünya veri analizi ve veri bilimi projelerinde çalıştım",
+        "İş dünyası dinamiklerini simüle eden ekip çalışmalarında yer aldım",
+        "Veri analizi ve veri bilimi becerilerini önemli ölçüde geliştirdim"
+      ]
+      },
+      /*{
+        company: "Mentor Özel Ders",
+        link: "https://mentorozelders.com/",
+        badges: ["Serbest Çalışan"],
+        title: "Instructor",
+        start: "2022",
+        end: "2024",
+        range: "2022 - 2024",
+        description:
+          "Yaklaşık iki yıldır lise seviyesinde Matematik ve Fiziğin yanı sıra İngilizce, Kalkülüs ve Fizik 101 dersleri veriyorum.",
+      },*/
+      {
+        company: "Türkiye Buz Hokeyi Federasyonu",
+        link: "https://tbhf.org.tr/",
+        badges: [],
+        title: "Buz Pateni Eğitmeni",
+        start: "Mart",
+        end: "2024",
+        range: "2024",
+        description:
+          "Bir aylık bir süreç boyunca Beykoz Buz Pistinde temel kayma eğitimi verdim ve insanları buz hokeyi branşıyla tanıştırdım.",
+        responsibilities: [
+        "Beykoz Buz Pisti'nde bir ay boyunca temel kayma eğitimi verdim",
+        "Katılımcılara buz hokeyinin temel prensiplerini ve tekniklerini tanıttım",
+        "Buz pateni başlangıç seviyesindeki bireyler için eğitim programları geliştirdim"
+      ]
+      },
+      {
+        company: "Scale AI",
+        link: "https://scale.com/",
+        badges: [],
+        title: "RLHF - Kodlama Ekibi",
+        start: "Eylül 2024",
+        range: "2024 - Günümüz",
+        end: "Günümüz",
+        description:
+          "Yüksek kaliteli istemler oluşturarak ve hataları belirlemek ve düzeltmek için gelişmiş ölçümler kullanarak model yanıtlarını değerlendirerek AI modellerinin geliştirilmesine katkıda bulunmak. Code generation, synthesis ve debugging görevlerine odaklanarak Python içeren kodlama projeleri üzerinde çalışmak.",
+        responsibilities: [
+        "Yüksek kaliteli promptlar oluşturarak yapay zeka modellerini geliştirme",
+        "Hataları tespit etmek ve düzeltmek için gelişmiş metriklerle model çıktılarının değerlendirilmesi",
+        "Kod üretimi ve sentezi odaklı Python projelerinde çalışmak",
+        "Hata ayıklama görevlerini yürütmek ve model performansını optimize etmek"
+      ]
       },
     ],
     skills: [
@@ -134,7 +170,7 @@ import {
           "A/B Testleri",
         ],
         description:
-        "Veri Analisti sertifikalı biri olarak analiz temel bilgileri, keşifsel analiz, veri yönetimi ve görselleştirme/raporlama konularında uzmanlığımı kanıtladım. Bu sertifika, A/B testleri gerçekleştirme, SQL kullanarak verileri temizleme ve işleme, Python ile veri analiz etme ve içgörüleri panolar ve sunumlar aracılığıyla etkili bir şekilde iletme yeteneğimi doğrulamaktadır.",      
+        "~80 saatlik, sınavlı ve sunumlu sertifika programı.",      
         link: {
           label: "datacamp.com",
           href: "https://www.datacamp.com/certificate/DA0025829515704",
@@ -149,7 +185,7 @@ import {
           "Gözetimli Öğrenme"
         ],
         description:
-          "Sertifikalı yardımcı veri bilimcisi olarak, veri yönetimi, keşifsel analiz, istatistiksel deney, modelleme ve veri bilimi programlama konusunda yeterlilik gösterdim. Ayrıca, raporlar ve panolar aracılığıyla eyleme dönüştürülebilir içgörüleri iletme becerileri kazandım ve bu da beni giriş seviyesi veri bilimi rollerine hazırladı.",      
+        "~80 saatlik ve sınavlı sertifika programı.",    
         link: {
           label: "datacamp.com",
           href: "https://www.datacamp.com/certificate/DSA0012506867305",
@@ -164,7 +200,7 @@ import {
           "Veri Ambarı",
         ],
         description:
-          "Veri mühendisi yardımcısı sertifikalı olarak, veri yönetimi ve keşifsel analiz konusunda yeterlilik gösterdim. Bu sertifika, SQL kullanarak verileri temizleme ve daha fazla analiz için hazırlama yeteneğimi ve veri analistleri ve bilim insanlarıyla etkili bir şekilde iş birliği yapmak için verilerle çalışmanın genel yöntemlerini anlama yeteneğimi doğruluyor.",
+        "~90 saatlik ve sınavlı sertifika programı.",  
         link: {
           label: "datacamp.com",
           href: "https://www.datacamp.com/certificate/DEA0014044089169",
@@ -179,7 +215,7 @@ import {
           "Keşifsel Analiz",
         ],
         description:
-        "Bu sertifika, verileri temizleme ve işleme, veri kalitesi sorunlarını belirleme ve SQL kullanarak dönüşümler gerçekleştirme, ayrıca PostgreSQL kullanarak ölçümleri hesaplama ve veri özellikleri ve özellik ilişkileri hakkında raporlama yeteneğimi doğruluyor.",      
+        "~50 saatlik ve sınavlı sertifika programı.",
         link: {
           label: "datacamp.com",
           href: "https://www.datacamp.com/certificate/SQA0012414864755",
@@ -195,7 +231,7 @@ import {
           "ChatGPT",
         ],
         description:
-          "Yapay Zeka Temelleri konusunda sertifikalıyım ve yapay zeka alt alanları için kullanım durumlarını belirleme, üretken yapay zeka'yı anlama, üretken yapay zeka araçları için istemler oluşturma ve yapay zeka ve üretken yapay zeka çözümlerinin etik hususlarını açıklama konusunda yeterlilik gösterdim.",      
+        "~20 saatlik sertifika programı.",
         link: {
           label: "datacamp.com",
           href: "https://www.datacamp.com/skill-verification/AIF0020785439675",
@@ -222,16 +258,27 @@ import {
           "Saldırı Tespit Sistemleri",
           "Ağ Güvenliği",        
           "Ağ Mimarisi",
-          "Kimlik Doğrulama Sistemleri",        
-          "SIEM Araçları",
-          "Linux",
-          "Bash",
+          "Kimlik Doğrulama Sistemleri",
         ],
         description:
-          "Bu sertifika uygulamalı etkinliklerden ve derslerden oluşur. Böylece adayları siber güvenlikte giriş seviyesi rollere hazırlar.",
+        "~60 saatlik sertifika programı.",
         link: {
           label: "coursera.org",
           href: "https://coursera.org/share/1198d12171bf94766669c19c02463390",
+        },
+      },
+      {
+        title: "umutgur.com",
+        techStack: [
+          "Side Project",
+          "TypeScript",
+          "Next.js",
+          "React"
+        ],
+        description: "Once UI taslağı kullanarak kişisel web sitemi oluşturdum.",
+        link: {
+          label: "umutgur.com",
+          href: "https://umutgur.com/",
         },
       },
       {
@@ -243,27 +290,13 @@ import {
           "TradingView",
           "Pine Script"
         ],
-        description: "Kripto para borsası başta olmak üzere NASDAQ, NYSE ve BIST gibi borsaları çeşitli indikatörlere göre tarayan Python kodları yazıyorum. Projemin Github'daki dosyalarına karta tıklayarak ulaşabilirsiniz.",
+        description: "Kripto para borsası ve ABD borsalarını çeşitli indikatörlere göre tarayan Python kodları yazdım.",
         link: {
           label: "github.com/rugtumu/trade",
           href: "https://github.com/rugtumu/trade",
         },
-      },
-      {
-        title: "umutgur.com",
-        techStack: [
-          "Side Project",
-          "TypeScript",
-          "Next.js",
-          "React"
-        ],
-        description: "Bartosz Jarocki'nin herkese açık taslağını kullanarak kendi websitemi oluşturdum. Bu sayfa ayrıca güncel özgeçmişimi göstermektedir.",
-        link: {
-          label: "umutgur.com",
-          href: "https://umutgur.com/",
-        },
-      },
-      {
+      },      
+      /*{
         title: "bogaziciblitz.com",
         techStack: [
           "Side Project",
@@ -276,7 +309,7 @@ import {
           label: "bogaziciblitz.com",
           href: "https://bogaziciblitz.com/",
         },
-      },
+      },*/
     ],
   } as const;
   

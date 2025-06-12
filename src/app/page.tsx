@@ -231,7 +231,10 @@ export default function Page() {
         </Section>
 
         <Section className="scroll-mb-16">
-          <h2 className="text-xl font-bold">Projects & Certificates</h2>
+          <div className="flex items-baseline gap-2">
+            <h2 className="text-xl font-bold">Projects & Certificates</h2>
+            <span className="text-m font-normal text-gray-500">(All clickable)</span>
+          </div>
           <div className="-mx-4 grid grid-cols-2 gap-3 md:grid-cols-4 lg:grid-cols-4">
             {RESUME_DATA.projects.map((project) => {
               return (
