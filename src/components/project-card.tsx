@@ -35,7 +35,7 @@ export function ProjectCard({ title, description, tags, link }: Props) {
                 {link.replace("https://", "").replace("www.", "").replace("/", "")}
               </div>
             )}
-            <CardDescription className="font-normal text-xs print:text-[10px]">
+            <CardDescription className="font-normal text-s print:text-[10px] font-sans print:text-black">
               {description}
             </CardDescription>
           </div>
@@ -45,7 +45,7 @@ export function ProjectCard({ title, description, tags, link }: Props) {
             {tags.map((tag) => (
               <Badge
                 className="px-1 py-0 text-[10px] print:px-1 print:py-0.5 print:text-[8px] print:leading-tight"
-                variant="secondary"
+                variant="default"
                 key={tag}
               >
                 {tag}
